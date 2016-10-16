@@ -116,7 +116,7 @@ a {
     display: block;
     margin: 0 auto;
     text-decoration: none;
-    list-style: none;
+/*    list-style: none;*/
     background-repeat: no-repeat;
     background-position: top center; }
   .whatido .whatido_whoami {
@@ -159,9 +159,9 @@ a {
         .whatido .whatido_whoami .whatido_whoami_main h3 {
           text-align: center; }
         .whatido .whatido_whoami .whatido_whoami_description {
-          margin-top: 30px;
+/*          margin-top: 30px;*/
           text-align: left;
-          width: 45%;
+          width: 50%;
           margin-left: 25%;
           font-size: 1.1em; }
       .whatido .whatido_skill {
@@ -177,7 +177,7 @@ a {
         .whatido .whatido_skill .whatido_skill_description {
           font-size: 1.1em;
           text-align: left;
-          width: 45%;
+          width: 50%;
           margin-left: 23%; } }
 
 #skill-section {
@@ -236,7 +236,8 @@ a {
     margin: 0 auto;
     padding-top: 20px;
     width: 95%;
-    overflow: auto; }
+    overflow: auto; 
+  }
   #timeline-section #timeline {
     background: url(../images/line.png) repeat-y;
     background-position: 32px;
@@ -299,7 +300,8 @@ a {
     margin-right: 0; }
   @media (min-width: 600px) {
     #timeline-section .container {
-      width: 70%; }
+      width: 70%; 
+      }
       #timeline-section .container #timeline {
         background: url(../images/line.png) repeat-y 50%;
         margin-bottom: 50px; }
